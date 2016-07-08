@@ -6,7 +6,7 @@
 
 2) /extapp - прилажуха extjs (127.0.0.1:1842)<br>
 http://docs.sencha.com/extjs/6.0.2-classic/guides/getting_started/getting_started.html<br>
-Внимание! Cors 127.0.0.1:1842 -> 127.0.0.1:80
+Внимание! Cors 127.0.0.1:1842 => 127.0.0.1:80
 
 3) /api - api реализованное на phalcon (127.0.0.1:80) (содержит config для pg).<br>
 http://docs.phalconphp.ru/ru/latest/reference/tutorial-rest.html
