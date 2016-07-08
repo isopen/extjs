@@ -13,7 +13,7 @@ http://docs.phalconphp.ru/ru/latest/reference/tutorial-rest.html
 
 4) База данных /enterra.sql:
 
-2 таблицы поля в которых занесены из тз.<br>
+2 таблицы. Поля в которых занесены из тз.<br>
 2 - таблица "parrent" (уникальным является ip клиента).<br>
 1 - таблица "children" (внешний ключ с "children" в "parrent").<br>
 Связь: parrent ко многим children.
