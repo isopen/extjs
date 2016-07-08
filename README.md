@@ -1,9 +1,4 @@
-<style>
-	.box {
-		font-size: 12px;
-	}
-</style>
-<span class="box">Инструменты: extjs, ruby(gem csv, pg, randexp), php, phalcon, apache2(mod rewrite,mod header), postgresql
+<span style="font-size:12px;">Инструменты: extjs, ruby(gem csv, pg, randexp), php, phalcon, apache2(mod rewrite,mod header), postgresql
 
 Установка phalcon: http://docs.phalconphp.ru/ru/latest/reference/install.html
 
