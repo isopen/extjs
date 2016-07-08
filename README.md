@@ -1,4 +1,9 @@
-Инструменты: extjs, ruby(gem csv, pg, randexp), php, phalcon, apache2(mod rewrite,mod header), postgresql
+<style>
+	.box {
+		font-size: 12px;
+	}
+</style>
+<span class="box">Инструменты: extjs, ruby(gem csv, pg, randexp), php, phalcon, apache2(mod rewrite,mod header), postgresql
 
 Установка phalcon: http://docs.phalconphp.ru/ru/latest/reference/install.html
 
@@ -20,4 +25,4 @@ http://docs.phalconphp.ru/ru/latest/reference/tutorial-rest.html
 
 Для таблицы children при большом числе записей можно внедрить партицирование для начала в 1 каскад по ip.<br>
 export.rb в данном случае можно переделать на INSERT вместо COPY(Тащить допустим по 300000 записей за одну транзакцию для избежания блокировок. INSERT для группировки по партициям).<br>
-Пример партицирования в 2 каскада могу показать. Инструмент https://ru.wikipedia.org/wiki/PL/pgSQL.
+Пример партицирования в 2 каскада могу показать. Инструмент https://ru.wikipedia.org/wiki/PL/pgSQL.</span>
