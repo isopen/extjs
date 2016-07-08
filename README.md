@@ -4,7 +4,7 @@
 
 1) /rbgenexport - генерация файлов и экспорт в базу (содержит config для pg).
 
-2) /extapp - прилажуха extjs (127.0.0.1:1842)
+2) /extapp - прилажуха extjs (127.0.0.1:1842)<br>
 http://docs.sencha.com/extjs/6.0.2-classic/guides/getting_started/getting_started.html
 Внимание! Cors 127.0.0.1:1842 -> 127.0.0.1:80
 
