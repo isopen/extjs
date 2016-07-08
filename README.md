@@ -15,7 +15,7 @@ http://docs.phalconphp.ru/ru/latest/reference/tutorial-rest.html
 
 2 таблицы поля в которых занесены из тз.<br>
 2 - таблица "parrent" (уникальным является ip клиента).<br>
-1 - таблица "children" (внешний ключ с children в parrent).<br>
+1 - таблица "children" (внешний ключ с "children" в "parrent").<br>
 Связь: parrent ко многим children.
 
 Для таблицы "children" при большом числе записей можно внедрить партицирование для начала в 1 каскад по ip.<br>
