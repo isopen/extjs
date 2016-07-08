@@ -4,7 +4,7 @@
 
   class DataThree extends Model {
 
-    public
+    protected
       $ip,
       $browser,
       $os;

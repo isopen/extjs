@@ -1,7 +1,9 @@
-Header always set Access-Control-Allow-Origin "http://127.0.0.1:1842"
-Header always set Access-Control-Allow-Methods "POST, GET"
-Header always set Access-Control-Max-Age "1000"
-Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+<IfModule mod_headers.c>
+  Header always set Access-Control-Allow-Origin "http://127.0.0.1:1842"
+  Header always set Access-Control-Allow-Methods "POST, GET"
+  Header always set Access-Control-Max-Age "1000"
+  Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+</IfModule>
 
 <IfModule mod_rewrite.c>
     RewriteEngine On

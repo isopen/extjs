@@ -4,7 +4,7 @@
 
   class DataFive extends Model {
 
-    public
+    protected
       $id,
       $ip,
       $urlFrom,
