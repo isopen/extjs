@@ -1,32 +1,10 @@
 <?php
 
   use Phalcon\Mvc\Micro;
-  use Phalcon\Db\Adapter\Pdo\Postgresql as PdoPosgresql;
-  use Phalcon\Loader;
-  use Phalcon\Di\FactoryDefault;
   use Phalcon\Mvc\Model\Query;
 
-  $loader = new Loader();
-
-  $loader->registerDirs(
-    array(
-      __DIR__ . '/models/'
-    )
-  )->register();
-
-  $di = new FactoryDefault();
-
-  $di->set('db', function () {
-    return new PdoPosgresql(
-        array(
-            "host"     => "localhost",
-            "port"     => 5432,
-            "username" => "postgres",
-            "password" => "1",
-            "dbname"   => "enterra"
-        )
-    );
-  });
+  include __DIR__ . "/config/loader.php";
+  include __DIR__ . "/config/service.php";
 
   $app = new Micro($di);
 
