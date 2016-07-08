@@ -11,7 +11,7 @@ http://docs.sencha.com/extjs/6.0.2-classic/guides/getting_started/getting_starte
 3) /api - api реализованное на phalcon (127.0.0.1:80) (содержит config для pg).
 http://docs.phalconphp.ru/ru/latest/reference/tutorial-rest.html
 
-4) База данных /enterra.sql:
+4) База данных /enterra.sql
 2 таблицы поля в которых занесены из тз
 2 - таблица "parrent" (уникальным является ip клиента)
 1 - таблица "children" (внешний ключ с children в parrent)
